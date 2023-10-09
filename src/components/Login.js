@@ -10,7 +10,7 @@ const Login =  (props) => {
     e.preventDefault();
     //Todo: Api call
     //Api call
-    const response = await fetch("https://inotebookback-hajz.onrender.com/api/auth/login", {
+    const response = await fetch("https://inotebookback-w3v6.onrender.com/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

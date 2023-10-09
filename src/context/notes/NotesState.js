@@ -8,7 +8,7 @@ const NotesState = (props) => {
   const getNotes = async () => {
     //Todo: Api call 
     //Api call
-    const response = await fetch(`https://inotebookback-hajz.onrender.com/api/notes/fetchallnotes`, {
+    const response = await fetch(`https://inotebookback-w3v6.onrender.com/api/notes/fetchallnotes`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -25,7 +25,7 @@ const NotesState = (props) => {
   const addNote = async (title, description, tag) => {
     //Todo: Api call 
     //Api call
-    const response = await fetch(`https://inotebookback-hajz.onrender.com/api/notes/addnote`, {
+    const response = await fetch(`https://inotebookback-w3v6.onrender.com/api/notes/addnote`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ const NotesState = (props) => {
   //delete note
   const deleteNote = async (id) => {
     //api call
-   const response= await fetch(`https://inotebookback-hajz.onrender.com/api/notes/deletenote/${id}`, {
+   const response= await fetch(`https://inotebookback-w3v6.onrender.com/api/notes/deletenote/${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ const NotesState = (props) => {
   //edit note
   const editNote = async (id, title, description, tag) => {
     //Api call
-    const response = await fetch(`https://inotebookback-hajz.onrender.com/api/notes/updatenote/${id}`, {
+    const response = await fetch(`https://inotebookback-w3v6.onrender.com/api/notes/updatenote/${id}`, {
       method: "PUT",
       headers: {
         'Content-Type': 'application/json',

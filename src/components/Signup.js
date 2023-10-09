@@ -10,7 +10,7 @@ const Signup = (props) => {
         //Todo: Api call
         //Api call
         
-        const response = await fetch("https://inotebookback-hajz.onrender.com/api/auth/createuser", {
+        const response = await fetch("https://inotebookback-w3v6.onrender.com/api/auth/createuser", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
